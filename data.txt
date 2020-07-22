@@ -1,0 +1,26 @@
+Implementation of the Kademlia
+Distributed Hash Table
+Semester Thesis Written by
+Bruno Spori
+Summer Term 2006
+SA-2006-19
+Advisor: Marcel Baur
+Professor: Prof. Dr. Bernhard PlattnerAbstract
+This report describes an implementation of the Kademlia DHT written in Java. The intended
+purpose of the implementation is to become an alternative to the existing DHT in the Celeste
+automatic storage system. Important design characteristics are the multi-threaded architecture,
+the representation of messages as usual Java objects which can be converted to byte[]s according
+to a well-defined format and the introduction of buffers for the temporary storage of messages.
+To ensure the proper functionality of the program, several kind of tests were performed. There
+remains some future work to be done connected with the implementation, most notably the actual
+integration into Celeste.
+Zusammenfassung
+Dieser Bericht beschreibt die Implementation eines Kademlia DHTs, geschrieben in Java. Die Im-
+plementation soll später einmal als Alternative zu der bestehenden DHT im Celeste Speicherungs-
+system eingesetzt werden können. Wichtige Design Merkmale sind die mulit-threaded Architektur,
+die Repräsentation der Messages als gewöhnliche Java-Objekte, die einem klar definierten Format
+folgend in byte[]s umgewandelt werden können und die Einführung von Buffern um Messages
+zwischenzuspeichern. Um die Korrektheit des Programmes sicherzustellen wurden verschiedene
+Arten von Tests durchgeführt. Im Zusammenhang mit der Implementation sind noch ein paar
+Arbeiten ausstehend, vor allem die eigentliche Integration in Celeste steht noch bevor.
+
